@@ -1,7 +1,11 @@
 #include "main.h"
 
-/* Write a function that swaps the values of two integers.*/
-
+/**
+ * swap_int - swap values of two ints 
+ * @a: int pointer
+ * @b: int pointer
+*/
+ 
 void swap_int(int *a, int *b)
 {
 	int p, q;
