@@ -18,6 +18,6 @@ void print_rev(char *s)
 		putchar(s[len]);
 		len--;
 	}
-	putchar(10)
+	putchar(10);
 }
 
