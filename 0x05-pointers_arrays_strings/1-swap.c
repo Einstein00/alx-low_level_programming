@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * swap_int - swap values of two ints 
+ * swap_int - swap values of two ints
  * @a: int pointer
  * @b: int pointer
 */
- 
+
 void swap_int(int *a, int *b)
 {
 	int p, q;
@@ -15,4 +15,5 @@ void swap_int(int *a, int *b)
 	*a = q;
 	*b = p;
 }
+
 
