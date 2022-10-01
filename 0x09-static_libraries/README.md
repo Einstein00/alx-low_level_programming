@@ -1,1 +1,1 @@
-Creating and working on a new static library and will work on dynamic later
+README for static library project
