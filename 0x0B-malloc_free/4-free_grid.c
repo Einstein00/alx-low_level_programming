@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
+
 /**
  * free_grid - frees the memory allocate for the grid
  * created by alloc_grid()
@@ -8,7 +9,7 @@
  */
 void free_grid(int **grid, int height)
 {
-	int 1;
+	int i;
 
 	if (grid == NULL || height == 0)
 		return;
